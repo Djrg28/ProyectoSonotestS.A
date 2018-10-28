@@ -60,5 +60,10 @@ namespace ProyectoSonotestS.A
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

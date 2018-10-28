@@ -44,9 +44,7 @@ namespace ProyectoSonotestS.A
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 Nuevo = new Form3();
-
-            Nuevo.Show();
+            
         }
 
         private void equipoDeIzamientoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -66,7 +64,17 @@ namespace ProyectoSonotestS.A
 
         private void equipoDeIzamientoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            Form3 Nuevo = new Form3();
+
+            Nuevo.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Application.Exit();
 
         }
+
     }
 }
